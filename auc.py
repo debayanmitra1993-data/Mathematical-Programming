@@ -1,6 +1,7 @@
 def fx(x):
   return x**3
 
+# FInding area under curve using Numerical Integration Method - Trapezoidal rule
 def auc(x_lower, x_upper, N = 1000):
   area = 0
   delta = (x_upper - x_lower)/N
